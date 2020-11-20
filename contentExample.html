@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contentExample</title>
+    <script src="https://kit.fontawesome.com/e26a911ae7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/mystyles.css">
+</head>
+
+<body>
+    <!-- navbar top -->
+    <div>
+        <nav class="navbar is-link" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item">
+                    <img src="C:\Users\DJmdB\Desktop\logoLink.tif" width="112" height="28">
+                </a>
+
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item">
+                        Programmübersicht
+                    </a>
+
+                    <a class="navbar-item">
+                        Herstellung von Kunststoffen
+                    </a>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            A1 Polymerisation von Styrol
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item">
+                                About
+                            </a>
+                            <a class="navbar-item">
+                                Jobs
+                            </a>
+                            <a class="navbar-item">
+                                Contact
+                            </a>
+                            <hr class="navbar-divider">
+                            <a class="navbar-item">
+                                Report an issue
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-primary">
+                                <strong>Sign up</strong>
+                            </a>
+                            <a class="button is-light">
+                                Log in
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="section" id="page-content">
+        <div class="columns">
+            <!-- sidebar menu -->         
+            <div class="column is-2 full-height" style=height:100%;>
+                <div class="menu is-medium has-background-success is-sticky box">
+                    <ul class="menu-list has-text-weight-bold">
+                        <li>
+                            <div class="title pl-4 is-5 has-text-link">A1 Polymersiation von Styrol</div>
+                            <hr style="width:80%;text-align:left;margin-left:10%;  border: 1px solid black; margin-top: 0; margin-bottom: 0;">
+                            <br>
+                        </li>
+                        <li><a href="#bookmarkTheorie"> <span class="icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </span> Theorie</a></li>
+                        <li><a href="#bookmarkChemikalien"> <span class="icon">
+                                    <i class="fas fa-flask"></i>
+                                </span> Chemikalien</a></li>
+                        <li><a href="#bookmarkAblauf"> <span class="icon">
+                                    <i class="fas fa-clipboard-list"></i>
+                                </span> Ablauf</a></li>
+                        <li><a href="#bookmarkErgebnisse"> <span class="icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </span> Ergebnisse</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- experimental content -->
+            <div class="column is-flexible">
+                <!-- Theorie -->
+                <div class="box" id="Theoriebox">
+                    <h3 class="title has-text-info"></h3>
+                </div>
+                <!-- Sicherheit -->
+                <div class="box" id="Sicherheitsbox">
+                    <h3 class="title has-text-info"></h3>
+                </div>
+
+                <!-- Ablauf -->
+                <div class="box" id="Ablaufbox">
+                    <h3 class="title has-text-info"></h3>
+                </div>
+
+                <!-- Ergebnis -->
+                <div class="box" id="Ergebnisbox">
+                    <h3 class="title has-text-info"></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

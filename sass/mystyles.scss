@@ -1,0 +1,34 @@
+//colors
+$primary : #00793A;
+$link : #004A96;
+$info : #21A0D2;
+$success: #65AC1E;
+$warning: #F39500;
+$danger : #C50022;
+
+//box
+$box-color : black;
+$box-background-color: white;
+
+//title
+$title-color:  #21A0D2;
+
+//menu
+$menu-label-font-size : 1em;
+$menu-label-color : black;
+$menu-item-color :  #004A96;
+$menu-item-active-color : #004A96;
+$menu-item-active-background-color : hsla(206, 70%, 96%, 1);
+$menu-label-color:  #00793A;
+
+//breadcrumb
+$breadcrumb-item-separator-color : rgba(245, 93, 62, 1);
+
+//tabs
+$tabs-link-color : white;
+$tabs-link-active-color :black;
+
+
+//title
+
+@import "../node_modules/bulma/bulma.sass";
